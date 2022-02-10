@@ -60,15 +60,15 @@
     {
       "id": 1,
       "class": "UITableViewController",
-      "declaration": "@MainActor class UIViewController : UIResponder",
-      "overview": "defines the shared behavior that is common to all view controllers.",
+      "declaration": "@MainActor class UIViewController : UIViewController",
+      "overview": "Subclass UITableViewController when your interface consists of a table view and little or no other content.",
       "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     },
     {
       "id": 2,
       "class": "UICollectionViewController",
-      "declaration": "@MainActor class UIViewController : UIResponder",
-      "overview": "defines the shared behavior that is common to all view controllers.",
+      "declaration": "@MainActor class UIViewController : UIViewController",
+      "overview": "A view controller implements the following behavior:",
       "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
   ]
