@@ -49,7 +49,7 @@
       ]
     }
              ],
-  "UIViewController": [
+  "uiviewcontroller": [
   	{
   		"id": 0,
       "class": "UIViewController",
@@ -59,7 +59,7 @@
   	},
     {
       "id": 1,
-      "class": "UIViewController",
+      "class": "UITableViewController",
       "declaration": "@MainActor class UIViewController : UIResponder",
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
