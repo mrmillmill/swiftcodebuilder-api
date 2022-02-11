@@ -71,6 +71,15 @@
       "overview": "A view controller implements the following behavior:",
       "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
+  ],
+  "uiview": [
+    {
+      "id": 0,
+      "class": "UIView",
+      "declaration": "@MainActor class UIView : UIResponder",
+      "overview": "Views are the fundamental building blocks of your app's user interface, and the UIView class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle, and handles any interactions with that content.",
+      "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+    }
   ]
 
 }
