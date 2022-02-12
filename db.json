@@ -49,6 +49,36 @@
       ]
     }
              ],
+  "users": [
+    {
+      "login": "coolkid",
+      "name": "reese",
+      "company": "reese co.",
+      "followers": 1321,
+      "following": 3
+    },
+    {
+      "login": "j9canary",
+      "name": "janice",
+      "company": "jan and juice co.",
+      "followers": 412,
+      "following": 52
+    },
+    {
+      "login": "mrmillmill",
+      "name": "mike",
+      "company": "musk development",
+      "followers": 62,
+      "following": 1
+    },
+    {
+      "login": "labrieeskee",
+      "name": "jacob",
+      "company": "labrieeskee United",
+      "followers": 742,
+      "following": 49
+    },
+  ],
   "uiviewcontroller": [
   	{
   		"id": 0,
