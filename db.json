@@ -52,33 +52,33 @@
   "uiviewcontroller": [
   	{
   		"id": 0,
-      "className": "UIViewController",
-      "declarationDescription": "@MainActor class UIViewController : UIResponder",
+      "class_name": "UIViewController",
+      "declaration_description": "@MainActor class UIViewController : UIResponder",
       "overview": "defines the shared behavior that is common to all view controllers.",
-      "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
   	},
     {
       "id": 1,
-      "className": "UITableViewController",
-      "declarationDescription": "@MainActor class UIViewController : UIViewController",
+      "class_name": "UITableViewController",
+      "declaration_description": "@MainActor class UIViewController : UIViewController",
       "overview": "Subclass UITableViewController when your interface consists of a table view and little or no other content.",
-      "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     },
     {
       "id": 2,
-      "className": "UICollectionViewController",
-      "declarationDescription": "@MainActor class UIViewController : UIViewController",
+      "class_name": "UICollectionViewController",
+      "declaration_description": "@MainActor class UIViewController : UIViewController",
       "overview": "A view controller implements the following behavior:",
-      "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
   ],
   "uiview": [
     {
       "id": 0,
-      "className": "UIView",
-      "declarationDescription": "@MainActor class UIView : UIResponder",
+      "class_name": "UIView",
+      "declaration_description": "@MainActor class UIView : UIResponder",
       "overview": "Views are the fundamental building blocks of your app's user interface, and the UIView class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle, and handles any interactions with that content.",
-      "subclassingNotes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
   ]
 
