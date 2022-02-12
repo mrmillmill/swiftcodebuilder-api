@@ -54,6 +54,7 @@
       "login": "coolkid",
       "name": "reese",
       "company": "reese co.",
+      "bio": "I am the rainbow",
       "followers": 1321,
       "following": 3
     },
@@ -61,20 +62,23 @@
       "login": "j9canary",
       "name": "janice",
       "company": "jan and juice co.",
+      "bio": "substitute phrase here",
       "followers": 412,
       "following": 52
     },
     {
       "login": "mrmillmill",
-      "name": "mike",
+      "name": "",
       "company": "musk development",
+      "bio": "hey girl! hey!",
       "followers": 62,
       "following": 1
     },
     {
       "login": "labrieeskee",
       "name": "jacob",
-      "company": "labrieeskee United",
+      "company": "",
+      "bio": "Chew is my only friend",
       "followers": 742,
       "following": 49
     }
