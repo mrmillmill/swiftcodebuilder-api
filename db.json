@@ -53,6 +53,7 @@
     {
       "login": "coolkid",
       "name": "reese",
+      "location":"Cali",
       "company": "reese co.",
       "bio": "I am the rainbow",
       "followers": 1321,
@@ -64,6 +65,7 @@
     {
       "login": "j9canary",
       "name": "janice",
+      "location":"Earth",
       "company": "jan and juice co.",
       "bio": "substitute phrase here",
       "followers": 412,
@@ -75,6 +77,7 @@
     {
       "login": "mrmillmill",
       "name": "",
+      "location":"Murrieta",
       "company": "musk development",
       "bio": "hey girl! hey!",
       "followers": 62,
@@ -86,6 +89,7 @@
     {
       "login": "labrieeskee",
       "name": "jacob",
+      "location":"NV",
       "company": "",
       "bio": "Chew is my only friend",
       "followers": 742,
