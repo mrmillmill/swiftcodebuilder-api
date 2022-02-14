@@ -109,7 +109,7 @@
   ],
   "topics": [
     {
-      "uiviewcontroller": [
+      "viewcontrollers": [
       	{
       		"id": 0,
           "class_name": "UIViewController",
@@ -132,7 +132,7 @@
           "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
         }
       ],
-      "uiview": [
+      "views": [
         {
           "id": 0,
           "class_name": "UIView",
