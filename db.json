@@ -107,6 +107,44 @@
       "updated_at": "2020-12-14T08:03:501"
     }
   ],
+  "essentials": [
+    {
+      "id": 0,
+      "name":"basic support",
+      "description": "",
+      "overview": "basic support provided by UIKit and Xcode",
+      "required_resources":"App icons and Launch screen storyboard are required",
+      "required_app_metadata": "Info.plist: System gains info about your app configuration and capability through Info.plist in your app bundle.",
+      "code_structure_of_uikit_app":"Structure is based on Model-View-Controller (MVC) design pattern where objects are divided by purpose. 'Model': objects that manage the app's data and logic. 'View': category contains objects that provide visual representation of your data. 'Controller': Objects acting as a bridge between your apps model and view objects, moving data between them at appropriate times.",
+      "urlPage": "https://developer.apple.com/documentation/uikit/about_app_development_with_uikit"
+    },
+    {
+      "id": 1,
+      "name":"protect user privacy",
+      "description": "",
+      "overview": "secure personal data and user preference on data use",
+      "government_industry_guidelines":"consult following documents",
+      "request_data_when_needed": "request access to user or device data.",
+      "transparent_use_of_data":"provide app store with url for your privacy policy",
+      "control_over_data":"provide settings allowing user to disable access to information. Use strongest data protection level for your situation when storing files. If using ASIdentifierManager class respect value of its isAdertisingTrackingEnabled property. If user sets property to false then use ASIdentifierManager class only for limited advertising purposes",
+      "urlPage": "https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy"
+    }
+  ],
+  "app_structure": [
+    {
+      "id": 0,
+      "name":"app and environment",
+      "description": "apps life-cycle events, UI scenes, traits and environment",
+      "overview": "multiple instances of your app. Consult trait collection of UIView or UIViewController object to customize contents. Adopt UITraitEnvironment protocol in other objects that you want to receive trait notification changes.",
+      "lifecycle":"",
+      "multitasking": "",
+      "device_environment":"",
+      "adaptivity":"",
+      "guided_access":"",
+      "architecture":"",
+      "urlPage": "https://developer.apple.com/documentation/uikit/app_and_environment"
+    }
+  ],
   "viewcontrollers": [
   	{
   		"id": 0,
