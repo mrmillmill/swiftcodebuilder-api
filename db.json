@@ -112,6 +112,7 @@
       "id": 0,
       "name":"basic support",
       "description": "",
+      "avatar_url": "",
       "overview": "basic support provided by UIKit and Xcode",
       "required_resources":"App icons and Launch screen storyboard are required",
       "required_app_metadata": "Info.plist: System gains info about your app configuration and capability through Info.plist in your app bundle.",
@@ -122,6 +123,7 @@
       "id": 1,
       "name":"protect user privacy",
       "description": "",
+      "avatar_url": "",
       "overview": "secure personal data and user preference on data use",
       "government_industry_guidelines":"consult following documents",
       "request_data_when_needed": "request access to user or device data.",
@@ -135,6 +137,7 @@
       "id": 0,
       "name":"app and environment",
       "description": "apps life-cycle events, UI scenes, traits and environment",
+      "avatar_url": "",
       "overview": "multiple instances of your app. Consult trait collection of UIView or UIViewController object to customize contents. Adopt UITraitEnvironment protocol in other objects that you want to receive trait notification changes.",
       "lifecycle":"",
       "multitasking": "",
@@ -150,6 +153,7 @@
   		"id": 0,
       "name": "UIViewController",
       "description": "@MainActor class UIViewController : UIResponder",
+      "avatar_url": "",
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
   	},
@@ -157,6 +161,7 @@
       "id": 1,
       "name": "UITableViewController",
       "description": "@MainActor class UIViewController : UIViewController",
+      "avatar_url": "",
       "overview": "Subclass UITableViewController when your interface consists of a table view and little or no other content.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     },
@@ -164,6 +169,7 @@
       "id": 2,
       "name": "UICollectionViewController",
       "description": "@MainActor class UIViewController : UIViewController",
+      "avatar_url": "",
       "overview": "A view controller implements the following behavior:",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
@@ -173,6 +179,7 @@
       "id": 0,
       "name": "UIView",
       "description": "@MainActor class UIView : UIResponder",
+      "avatar_url": "",
       "overview": "Views are the fundamental building blocks of your app's user interface, and the UIView class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle, and handles any interactions with that content.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
