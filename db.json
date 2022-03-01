@@ -238,6 +238,54 @@
       "avatar_url": "",
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 8,
+      "name": "UINavigationBar",
+      "description": "@MainActor class UINavigationBar : UIView",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 9,
+      "name": "UINavigationItem",
+      "description": "@MainActor class UINavigationItem : NSObject",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 10,
+      "name": "UITabBarController",
+      "description": "@MainActor class UITabBarController : UIViewController",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 11,
+      "name": "UITabBar",
+      "description": "@MainActor class UITabBar : UIView",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 12,
+      "name": "UITabBarItem",
+      "description": "@MainActor class UITabBarItem : UIView",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
+    },
+    {
+    "id": 13,
+      "name": "UIPageViewController",
+      "description": "@MainActor class UIPageViewController : UIViewController",
+      "avatar_url": "",
+      "overview": "defines the shared behavior that is common to all view controllers.",
+      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     }
   ],
   "views": [
