@@ -2590,8 +2590,7 @@
       "avatar_url": "",
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
-    },
-
+    }
   ],
   "views": [
     {
