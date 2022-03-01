@@ -148,7 +148,7 @@
       "urlPage": "https://developer.apple.com/documentation/uikit/app_and_environment"
     }
   ],
-  "viewcontrollers": [
+  "contentViewControllers": [
   	{
   		"id": 0,
       "name": "UIViewController",
