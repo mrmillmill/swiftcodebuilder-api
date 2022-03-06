@@ -1,162 +1,50 @@
 {
-  "burgers": [
-    {
+  "essentials": [{
       "id": 0,
-      "name": "Tribute Burger",
-      "restaurant": "Honest Burgers",
-      "web": "www.honestburgers.co.uk",
-      "description": "A mouth-watering honest beef burger",
-      "ingredients": [
-        "beef",
-        "american cheese",
-        "burger sauce",
-        "french mustard",
-        "pickes",
-        "onion",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "75",
-          "line1": "Venn Street",
-          "line2": "Clapham",
-          "postcode": "SW4 0BD",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Pulled Mooshie",
-      "restaurant": "Mooshies",
-      "web": "www.veganburger.org",
-      "description": "Spicy vegan burger with jackfruit",
-      "ingredients": [
-        "jackfruit",
-        "coleslaw",
-        "gluten free bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "104",
-          "line1": "Brick Lane",
-          "line2": "Shoreditch",
-          "postcode": "E1 6RL",
-          "country": "United Kingdom"
-        }
-      ]
-    }
-  ],
-  "users": [
-    {
-      "login": "coolkid",
-      "name": "reese",
-      "location":"Cali",
-      "company": "reese co.",
-      "bio": "I am the rainbow",
-      "public_posts": 32,
-      "public_replies": 67,
-      "followers": 1321,
-      "following": 3,
-      "html_url":"https://mrmillmill.github.io/medRXiOS-Website/",
-      "created_at": "2008-01-14T04:33:352",
-      "updated_at": "2009-10-14T07:04:213"
-    },
-    {
-      "login": "j9canary",
-      "name": "janice",
-      "location":"Earth",
-      "company": "jan and juice co.",
-      "bio": "substitute phrase here",
-      "public_posts": 87,
-      "public_replies": 203,
-      "followers": 412,
-      "following": 52,
-      "html_url":"https://mrmillmill.github.io/medRXiOS-Website/",
-      "created_at": "2002-01-14T04:20:352",
-      "updated_at": "2015-10-14T07:08:517"
-    },
-    {
-      "login": "mrmillmill",
-      "name": "",
-      "location":"Murrieta",
-      "company": "musk development",
-      "bio": "hey girl! hey!",
-      "public_posts": 156,
-      "public_replies": 236,
-      "followers": 62,
-      "following": 1,
-      "html_url":"https://mrmillmill.github.io/medRXiOS-Website/",
-      "created_at": "2011-12-14T04:10:553",
-      "updated_at": "2015-04-14T07:44:132"
-    },
-    {
-      "login": "labrieeskee",
-      "name": "jacob",
-      "location":"NV",
-      "company": "",
-      "bio": "Chew is my only friend",
-      "public_posts": 322,
-      "public_replies": 81,
-      "followers": 742,
-      "following": 49,
-      "html_url":"https://mrmillmill.github.io/medRXiOS-Website/",
-      "created_at": "2019-04-14T02:50:765",
-      "updated_at": "2020-12-14T08:03:501"
-    }
-  ],
-  "essentials": [
-    {
-      "id": 0,
-      "name":"basic support",
+      "name": "basic support",
       "description": "",
       "avatar_url": "",
       "overview": "basic support provided by UIKit and Xcode",
-      "required_resources":"App icons and Launch screen storyboard are required",
+      "required_resources": "App icons and Launch screen storyboard are required",
       "required_app_metadata": "Info.plist: System gains info about your app configuration and capability through Info.plist in your app bundle.",
-      "code_structure_of_uikit_app":"Structure is based on Model-View-Controller (MVC) design pattern where objects are divided by purpose. 'Model': objects that manage the app's data and logic. 'View': category contains objects that provide visual representation of your data. 'Controller': Objects acting as a bridge between your apps model and view objects, moving data between them at appropriate times.",
+      "code_structure_of_uikit_app": "Structure is based on Model-View-Controller (MVC) design pattern where objects are divided by purpose. 'Model': objects that manage the app's data and logic. 'View': category contains objects that provide visual representation of your data. 'Controller': Objects acting as a bridge between your apps model and view objects, moving data between them at appropriate times.",
       "urlPage": "https://developer.apple.com/documentation/uikit/about_app_development_with_uikit"
     },
     {
       "id": 1,
-      "name":"protect user privacy",
+      "name": "protect user privacy",
       "description": "",
       "avatar_url": "",
       "overview": "secure personal data and user preference on data use",
-      "government_industry_guidelines":"consult following documents",
+      "government_industry_guidelines": "consult following documents",
       "request_data_when_needed": "request access to user or device data.",
-      "transparent_use_of_data":"provide app store with url for your privacy policy",
-      "control_over_data":"provide settings allowing user to disable access to information. Use strongest data protection level for your situation when storing files. If using ASIdentifierManager class respect value of its isAdertisingTrackingEnabled property. If user sets property to false then use ASIdentifierManager class only for limited advertising purposes",
+      "transparent_use_of_data": "provide app store with url for your privacy policy",
+      "control_over_data": "provide settings allowing user to disable access to information. Use strongest data protection level for your situation when storing files. If using ASIdentifierManager class respect value of its isAdertisingTrackingEnabled property. If user sets property to false then use ASIdentifierManager class only for limited advertising purposes",
       "urlPage": "https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy"
     }
   ],
-  "app_structure": [
-    {
+  "app_structure": [{
+    "id": 0,
+    "name": "app and environment",
+    "description": "apps life-cycle events, UI scenes, traits and environment",
+    "avatar_url": "",
+    "overview": "multiple instances of your app. Consult trait collection of UIView or UIViewController object to customize contents. Adopt UITraitEnvironment protocol in other objects that you want to receive trait notification changes.",
+    "lifecycle": "",
+    "multitasking": "",
+    "device_environment": "",
+    "adaptivity": "",
+    "guided_access": "",
+    "architecture": "",
+    "urlPage": "https://developer.apple.com/documentation/uikit/app_and_environment"
+  }],
+  "contentViewControllers": [{
       "id": 0,
-      "name":"app and environment",
-      "description": "apps life-cycle events, UI scenes, traits and environment",
-      "avatar_url": "",
-      "overview": "multiple instances of your app. Consult trait collection of UIView or UIViewController object to customize contents. Adopt UITraitEnvironment protocol in other objects that you want to receive trait notification changes.",
-      "lifecycle":"",
-      "multitasking": "",
-      "device_environment":"",
-      "adaptivity":"",
-      "guided_access":"",
-      "architecture":"",
-      "urlPage": "https://developer.apple.com/documentation/uikit/app_and_environment"
-    }
-  ],
-  "contentViewControllers": [
-  	{
-  		"id": 0,
       "name": "UIViewController",
       "description": "@MainActor class UIViewController : UIResponder",
       "avatar_url": "",
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
-  	},
+    },
     {
       "id": 1,
       "name": "UITableViewController",
@@ -174,9 +62,8 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
     }
   ],
-  "containerViewControllers": [
-    {
-    "id": 0,
+  "containerViewControllers": [{
+      "id": 0,
       "name": "UISplitViewController",
       "description": "@MainActor class UISplitViewController : UIViewController",
       "avatar_url": "",
@@ -184,7 +71,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 1,
+      "id": 1,
       "name": "UINavigationViewController",
       "description": "@MainActor class UINavigationViewController : UIViewController",
       "avatar_url": "",
@@ -192,7 +79,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 2,
+      "id": 2,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -200,7 +87,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 3,
+      "id": 3,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -208,7 +95,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 4,
+      "id": 4,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -216,7 +103,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 5,
+      "id": 5,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -224,7 +111,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 6,
+      "id": 6,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -232,7 +119,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 7,
+      "id": 7,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -240,7 +127,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 8,
+      "id": 8,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -248,7 +135,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 9,
+      "id": 9,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -256,7 +143,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 10,
+      "id": 10,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -264,7 +151,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 11,
+      "id": 11,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -272,7 +159,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 12,
+      "id": 12,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -280,7 +167,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 13,
+      "id": 13,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -288,7 +175,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 14,
+      "id": 14,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -296,7 +183,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 15,
+      "id": 15,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -304,7 +191,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 16,
+      "id": 16,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -312,7 +199,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 17,
+      "id": 17,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -320,7 +207,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 18,
+      "id": 18,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -328,7 +215,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 19,
+      "id": 19,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -336,7 +223,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 20,
+      "id": 20,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -344,7 +231,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 21,
+      "id": 21,
       "name": "UINavigationViewController",
       "description": "@MainActor class UINavigationViewController : UIViewController",
       "avatar_url": "",
@@ -352,7 +239,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 22,
+      "id": 22,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -360,7 +247,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 23,
+      "id": 23,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -368,7 +255,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 24,
+      "id": 24,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -376,7 +263,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 25,
+      "id": 25,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -384,7 +271,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 26,
+      "id": 26,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -392,7 +279,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 27,
+      "id": 27,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -400,7 +287,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 28,
+      "id": 28,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -408,7 +295,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 29,
+      "id": 29,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -416,7 +303,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 30,
+      "id": 30,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -424,7 +311,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 31,
+      "id": 31,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -432,7 +319,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 32,
+      "id": 32,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -440,7 +327,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 33,
+      "id": 33,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -448,7 +335,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 34,
+      "id": 34,
       "name": "UINavigationBar",
       "description": "@MainActor class UINavigationBar : UIView",
       "avatar_url": "",
@@ -456,7 +343,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 35,
+      "id": 35,
       "name": "UINavigationItem",
       "description": "@MainActor class UINavigationItem : NSObject",
       "avatar_url": "",
@@ -464,7 +351,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 36,
+      "id": 36,
       "name": "UITabBarController",
       "description": "@MainActor class UITabBarController : UIViewController",
       "avatar_url": "",
@@ -472,7 +359,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 37,
+      "id": 37,
       "name": "UITabBar",
       "description": "@MainActor class UITabBar : UIView",
       "avatar_url": "",
@@ -480,7 +367,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 38,
+      "id": 38,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -488,7 +375,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 39,
+      "id": 39,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -496,7 +383,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 40,
+      "id": 40,
       "name": "UITabBarItem",
       "description": "@MainActor class UITabBarItem : UIView",
       "avatar_url": "",
@@ -504,7 +391,7 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
     {
-    "id": 41,
+      "id": 41,
       "name": "UIPageViewController",
       "description": "@MainActor class UIPageViewController : UIViewController",
       "avatar_url": "",
@@ -991,7 +878,7 @@
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
-        {
+    {
       "id": 102,
       "name": "UINavigationViewController",
       "description": "@MainActor class UINavigationViewController : UIViewController",
@@ -1791,7 +1678,7 @@
       "overview": "defines the shared behavior that is common to all view controllers.",
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     },
-        {
+    {
       "id": 202,
       "name": "UINavigationViewController",
       "description": "@MainActor class UINavigationViewController : UIViewController",
@@ -2592,15 +2479,13 @@
       "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController"
     }
   ],
-  "views": [
-    {
-      "id": 0,
-      "name": "UIView",
-      "description": "@MainActor class UIView : UIResponder",
-      "avatar_url": "",
-      "overview": "Views are the fundamental building blocks of your app's user interface, and the UIView class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle, and handles any interactions with that content.",
-      "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
-    }
-  ]
+  "views": [{
+    "id": 0,
+    "name": "UIView",
+    "description": "@MainActor class UIView : UIResponder",
+    "avatar_url": "",
+    "overview": "Views are the fundamental building blocks of your app's user interface, and the UIView class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle, and handles any interactions with that content.",
+    "subclassing_notes": "Each app contains minimum of one custom subclass of UIViewController. More often, apps contain many custom view controllers."
+  }]
 
 }
